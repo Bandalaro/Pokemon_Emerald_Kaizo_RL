@@ -1,0 +1,58 @@
+{
+    "team": [
+        {
+            "name": "Infernape",
+            "type": ["Fire", "Fighting"],
+            "level": 50,
+            "hitpoints": 180,
+            "status": "Healthy",
+            "ability": "Blaze",
+            "moves": ["Flamethrower", "Close Combat", "Thunder Punch", "Mach Punch"]
+        },
+        {
+            "name": "Garchomp",
+            "type": ["Dragon", "Ground"],
+            "level": 50,
+            "hitpoints": 210,
+            "status": "Healthy",
+            "ability": "Rough Skin",
+            "moves": ["Dragon Claw", "Earthquake", "Stone Edge", "Swords Dance"]
+        },
+        {
+            "name": "Aegislash",
+            "type": ["Steel", "Ghost"],
+            "level": 50,
+            "hitpoints": 170,
+            "status": "Healthy",
+            "ability": "Stance Change",
+            "moves": ["Shadow Ball", "Sacred Sword", "King's Shield", "Iron Head"]
+        },
+        {
+            "name": "Togekiss",
+            "type": ["Fairy", "Flying"],
+            "level": 50,
+            "hitpoints": 190,
+            "status": "Healthy",
+            "ability": "Serene Grace",
+            "moves": ["Air Slash", "Dazzling Gleam", "Thunder Wave", "Aura Sphere"]
+        },
+        {
+            "name": "Rotom-Wash",
+            "type": ["Electric", "Water"],
+            "level": 50,
+            "hitpoints": 175,
+            "status": "Healthy",
+            "ability": "Levitate",
+            "moves": ["Hydro Pump", "Volt Switch", "Will-O-Wisp", "Thunderbolt"]
+        },
+        {
+            "name": "Ferrothorn",
+            "type": ["Grass", "Steel"],
+            "level": 50,
+            "hitpoints": 200,
+            "status": "Healthy",
+            "ability": "Iron Barbs",
+            "moves": ["Leech Seed", "Power Whip", "Stealth Rock", "Gyro Ball"]
+        }
+    ]
+}
