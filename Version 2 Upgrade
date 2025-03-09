@@ -1,0 +1,50 @@
+PokéAPI
+
+🔹 Technologies Used:
+✔ Python – Core programming language
+✔ Requests – API calls to fetch Pokémon & move data
+✔ NumPy – Q-learning & numerical operations
+✔ Natural Language Processing (NLP) – Move description analysis
+✔ JSON – Handling Pokémon team data
+
+🔹 Key Features & Algorithms:
+✅ Pokémon Selection (Counter Strategy)
+
+Uses PokéAPI to fetch player’s Pokémon
+Picks AI’s Pokémon based on type advantage
+Ensures non-legendary, fully evolved Pokémon
+✅ Move Selection & NLP Integration
+
+Fetches all available moves for AI’s Pokémon
+Uses NLP techniques to classify moves:
+Offensive (damage-based)
+Status (buff/debuff/healing)
+Priority (faster execution)
+Scores moves based on Power, Accuracy, PP, Priority
+Formula:
+python
+Copy
+Edit
+score = (power * 1.2) + (accuracy * 0.8) + (pp * 0.5) + (priority * 2.0)
+✅ Reinforcement Learning (Q-Learning)
+
+Implements Q-learning for AI playstyle selection
+AI can play Offensive, Defensive, or Balanced based on battle scenario
+Updates Q-table to improve future decisions
+✅ Battle Strategy Implementation
+1️⃣ Load player team from JSON
+2️⃣ Pick counter Pokémon using type advantage
+3️⃣ Fetch all possible moves
+4️⃣ Classify moves using NLP
+5️⃣ Score moves based on battle effectiveness
+6️⃣ Use Q-learning to decide AI playstyle
+7️⃣ Generate optimized AI team
+
+🔹 Future Enhancements:
+🔥 Deep Learning for Move Classification (BERT, GPT-like models)
+🔥 Dynamic Battle Simulation – Train Q-learning agent on actual battle results
+🔥 Genetic Algorithms for Team Optimization
+
+This AI thinks strategically, picks strong counters, and selects high-impact moves! 🎮🔥
+
+#AI #MachineLearning #NLP #Python #GameDevelopment #Pokémon #Qlearning 🚀
